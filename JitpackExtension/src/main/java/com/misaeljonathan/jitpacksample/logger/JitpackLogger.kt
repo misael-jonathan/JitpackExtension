@@ -13,4 +13,12 @@ object JitpackLogger {
     fun sendLog(tag:String, message: String) {
         Log.d(tag, message)
     }
+
+    fun getName(): String {
+        return "Misael"
+    }
+
+    fun getValue(): String {
+        return "something"
+    }
 }
